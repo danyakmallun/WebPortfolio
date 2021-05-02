@@ -1,11 +1,21 @@
-const bukaNav = document.getElementById('mobile-open-nav')
-        nav = document.querySelector('nav')
-        tutupNav = document.getElementById('mobile-close-nav');
+const text = ["pelajar SMK Nu Ma'arif Kudus","Hamba Allah SWT"];
+let text1 = 0;
+let text2 = 0;
+let text3 = "";
+let text4 = "";
 
-bukaNav.addEventListener('click', () => {
-    nav.classList.add('menu-btn');
-})
+(function textEngetik (){
+  if ( text1 == text.length){
+    text1 = 0;
+  }
+    text3 = text[text1];
+    text4 = text3.slice(0, ++text2);
+    document.querySelector('.efek-ngetik').textContent= text4;
 
-tutupNav.addEventListener('click', () => {
-    nav.classList.remove('menu-btn');
-})
+    setTimeout(textEngetik,300);
+
+    if (text4.length == text3.length){
+      text1++;
+      text2 = 0;
+    }
+})();

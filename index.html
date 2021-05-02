@@ -7,117 +7,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Welcome</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <title>Welcome To My Portfolio</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="container">
-            <a class="logo" href="#">Dany<span>Akmallun</span></a>
+    <!-- Side bar -->
+    <div class="fixed">
+        <input type="checkbox" id="check">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skil">Skills</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contac">Contact</a></li>
+            </ul>
+        </div>
 
-            <img id="mobile-open-nav" class="mobile-menu" src="images/navbar.png" alt="nav">
+        <!-- Bagian header -->
+        <header>
+            <div class="container">
+                <h1><a href="https://www.instagram.com/danyakmallun_/" target="_blank">danyakmallun_</a></h1>
 
-            <nav>
-                <i id="mobile-close-nav" class="fas fa-times"></i>
-
-                <ul class="nav-kiri-utama">
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="main menu/index.html">Portfolio</a></li>
-                    <li><a href="#">pricing</a></li>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skil">Skills</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contac">Contact</a></li>
                 </ul>
 
-                <ul class="nav-kanan-cadangan">
-                    <li><a href="#">Contac</a></li>
-                    <li class="gabung-sekarang"><a href="#">Gabung Sekarang!</a></li>
-                </ul>
-            </nav>
+                <!-- menu mobile -->
+                <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+            </div>
+        </header>
+    </div>
+    <div class="containerr">
+
+
+        <!-- Bagian About me -->
+        <div class="kolom-satu">
+            <h1 id="about">About Me</h1>
+            <br>
+            <div class="profil">
+                <img src="img/profil1.jpg" alt="dany akmallun niam">
+            </div>
+            <br>
+            <br>
+            <h2>Hi! Nama saya Dany akmallun ni'am <br>
+                Saya adalah seorang <span class="efek-ngetik"></span></h2>
+            <p>Selamat datang di website porfolio saya!</p>
+        </div>
+
+
+
+        <!-- Bagian Skill -->
+        <div class="kolom-dua">
+            <h2 id="skil">My skills</h2>
+            <p>Berikut adalah data tentang kemampuan pada diri saya di bidang olahraga</p>
+            <br>
+            <h4>BERENANG</h4>
+            <div class="bar">
+                <span class="nilai1">
+                    <p>100%</p>
+                </span>
+            </div>
+
+            <br>
+            <h4>BOLA VOLY</h4>
+            <div class="bar">
+                <span class="nilai2">
+                    <p>80%</p>
+                </span>
+            </div>
+
+            <br>
+            <h4>BADMINTON</h4>
+            <div class="bar">
+                <span class="nilai3">
+                    <p>95%</p>
+                </span>
+            </div>
+
+            <br>
+            <h4>SEPAK BOLA</h4>
+            <div class="bar">
+                <span class="nilai4">
+                    <p>70%</p>
+                </span>
+            </div>
+
+            <br>
+            <h4>BASKET</h4>
+            <div class="bar">
+                <span class="nilai5">
+                    <p>85%</p>
+                </span>
+            </div>
         </div>
     </div>
 
-    <section class="hero">
-        <div class="container">
-            <div class="kolom-kiri">
-                <p class="subhead">welcome to my website</p>
-                <h1>Semoga harimu Menyenangkan</h1>
 
-                <div class="hero-kolom-kiri">
-                    <a href="https://www.youtube.com/channel/UCF7cAw6dcopVEuMdnKMl_uA/featured" target="_blank"
-                        class="gambar-utama">Subscribe Sekarang</a>
-                    <a href="https://www.youtube.com/channel/UCF7cAw6dcopVEuMdnKMl_uA/featured" target="_blank"
-                        class="kunjungi-youtube"><i class="fab fa-youtube"></i>Youtube</a>
-                </div>
-            </div>
+    <!-- Bagian Portfolio -->
+    <div class="container2">
+        <div class="portfolio1">
+            <h1 id="portfolio">My portfolio</h1>
 
-            <div class="kolom-kanan">
-                <img src="images/ilustrasion.png" alt="profile-youtube" class="hero-youtube">
-            </div>
+            <br>
+            <p>Pada tahun 2017 saya mulai untuk mengumpulkan data diri saya brupa foto. Bertujuan untuk sebagai
+                kenang-kenangan besok dihari yang akan mendatang. dengan sebuah foto tentu kita dapat mengingat
+                masa-masa muda kita.
+            </p>
+            <p>Foto merupakan momen untuk mengabadikan sesuatu. Tentu saja kita balik lagi ke paragraf 1 untuk. Berikut saya lampirkan sebagian momen.
+                funsionalitasnya
+            </p>
         </div>
-    </section>
-
-    <section class="fiture-section">
-        <div class="container">
-            <ul class="fiture-list">
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem, ipsum.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt minima?</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus!</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-            </ul>
-
-            <img src="images/pc.jpg" alt="pc ilustrasion">
+        <br>
+        <br>
+        <h3>My Album</h3>
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (1).jpg" alt="Dany"><span>Portfolio 1</span></a>
         </div>
-    </section>
 
-    <section class="tetimoni">
-        <div class="container">
-            <ul>
-                <li>
-                    <img src="images/profil.jpg" alt="foto-profile">
-                    <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo voluptatem debitis facere
-                        mollitia sit facilis!"</blockquote>
-                    <cite>Dany Akmallun'N</cite>
-                </li>
-                <li>
-                    <img src="images/profil.jpg" alt="foto-profile">
-                    <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo voluptatem debitis facere
-                        mollitia sit facilis!"</blockquote>
-                    <cite>@danyakmallun'N</cite>
-                </li>
-                <li>
-                    <img src="images/profil.jpg" alt="foto-profile">
-                    <blockquote>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo voluptatem debitis facere
-                        mollitia sit facilis!"</blockquote>
-                    <cite>Dany Akmallun'N</cite>
-                </li>
-            </ul>
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (2).jpg" alt="Dany"><span>Portfolio 2</span></a>
         </div>
-    </section>
 
-    <section class="contac-section">
-        <div class="container">
-            <div class="contac-left">
-                <h2>Contac</h2>
-                <form action="">
-                    <label for="name">Nama :</label>
-                    <input type="text" id="name" name="name">
-
-                    <label for="message">Saran :</label>
-
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-                    <input type="submit" class="submit-section" value="Kirim Sekarang">
-                </form>
-            </div>
-            <div class="contac-right">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2027701.9107095175!2d109.00221421657714!3d-6.967345756027107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65759b9cd518dd%3A0xc377d19d8fedbc46!2sJawa%20Tengah!5e0!3m2!1sid!2sid!4v1619935141165!5m2!1sid!2sid"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (3).jpg" alt="Dany"><span>Portfolio 3</span></a>
         </div>
-    </section>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (4).jpg" alt="Dany"><span>Portfolio 4</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (5).jpg" alt="Dany"><span>Portfolio 5</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (6).jpg" alt="Dany"><span>Portfolio 6</span></a>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (7).jpg" alt="Dany"><span>Portfolio 7</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (8).jpg" alt="Dany"><span>Portfolio 8</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (9).jpg" alt="Dany"><span>Portfolio 9</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (10).jpg" alt="Dany"><span>Portfolio 10</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (11).jpg" alt="Dany"><span>Portfolio 11</span></a>
+        </div>
+
+        <div class="col-4">
+            <a href=""><img src="img/foto1 (12).jpg" alt="Dany"><span>Portfolio 12</span></a>
+        </div>
+    </div>
+
+    <!-- Bagian kontak -->
+    <div class="contac">
+        <h3 id="contac">Contact</h3>
+
+        <div class="col-3">
+            <h4>Alamat</h4>
+            <p>jepara, jawa tengah, indonesia
+            </p>
+        </div>
+
+        <div class="col-3">
+            <h4>Email</h4>
+            <p>portfolio02@gmail.com
+            </p>
+        </div>
+
+        <div class="col-3">
+            <h4>Telepon</h4>
+            <p>+62 997 700 6373
+            </p>
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <div class="kopiright">
+        <p>Copyright &copy; 2020. danyakmallun_</p>
+    </div>
+
+
+
+
 
 
     <script src="js/script.js"></script>
